@@ -33,12 +33,11 @@ const Contact = () => {
             <div className="col-sm-12 col-md-6 col-lg-3 my-5">
               <div className="card border-0">
                 <div className="card-body text-center">
-                  <i
-                    className="fa fa-map-marker fa-5x mb-3"
-                    aria-hidden="true"
-                  ></i>
-                  <h4 className="text-uppercase mb-5">Location</h4>
-                  <address>Tunis,Tunisia </address>
+                  <i className="fa fa-github fa-5x mb-3" aria-hidden="true"></i>
+                  <h4 className="text-uppercase mb-5">GitHub</h4>
+                  <Link to="https://github.com/bilel-daikhi" target="_blank">
+                    Go to My GitHub
+                  </Link>
                 </div>
               </div>
             </div>
