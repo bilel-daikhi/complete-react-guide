@@ -10,7 +10,7 @@ const Contact = () => {
             className="text-center text-uppercase"
             style={{ color: "#002aff" }}
           >
-            contact us
+            About
           </h3>
           <p className="text-center w-75 m-auto">
             This hands-on exploration will guide you through the core features
