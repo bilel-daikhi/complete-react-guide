@@ -41,3 +41,21 @@
 #contact .card:hover h4 {
   color: #002aff;
 }
+.navbar-brand {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover .brand-name {
+  color: #1d4ed8;
+}

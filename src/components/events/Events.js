@@ -7,7 +7,7 @@ function Events(){
   const initialProjects = [
     {
         id:0,
-        name:'SBSA Rent',
+        name:'Rent',
         createdBy:'Bilel Daikhi',
         technologies:'React',          
         userEmail:'bilel.daikhi@gmail.com',
@@ -19,7 +19,7 @@ function Events(){
       },
       {
         id:1,
-        name:'SBSA Rent',
+        name:'Rent',
         createdBy:'Bilel Daikhi',
         technologies:'React',
         userEmail:'bilel.daikhi@gmail.com',
@@ -38,7 +38,7 @@ function Events(){
    setProjects( prevState =>{
     return [...prevState,{
       id:lastId+1,
-      name:'SBSA New Project',
+      name:'New Project',
       createdBy:'Bilel Daikhi',
       technologies:'React',          
       userEmail:'bilel.daikhi@gmail.com',
@@ -71,7 +71,7 @@ filteredProjects=[...initialProjects];
   }
 
     const doSomething=()=>{
-        setName('SBSA Solutions');
+        setName('Bilel Daikhi');
         console.log('button clicked!')
     }
     const reset=()=>{

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo-text.png";
 const Footer = () => {
   return (
     <div
@@ -15,10 +14,10 @@ const Footer = () => {
           target="_blank"
         >
           {" "}
-          SBSA Solutions.
+          Bilel Daikhi.
         </Link>{" "}
       </p>
-      <img src={logo} alt="logo" className="mb-3 mt-3" />
+      <h2 className="footer">Bilel Daikhi Contact.</h2>
       <br />
       <Link
         to="https://bilel-daikhi-portfolio.web.app/landing"

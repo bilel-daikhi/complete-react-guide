@@ -1,4 +1,4 @@
-# SBSA React demos
+# React demos
 
 This React crash course typically covers the basics of React, including its key concepts and features.
 

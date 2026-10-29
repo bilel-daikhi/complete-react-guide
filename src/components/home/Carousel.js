@@ -1,6 +1,4 @@
-import carousel1 from '../../assets/carousel-1.png';
-import carousel2 from '../../assets/carousel-2.png';
-import carousel3 from '../../assets/carousel-3.png';
+
 const Carousel =()=>{
     return (     
         
@@ -12,24 +10,24 @@ const Carousel =()=>{
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={carousel1}   className="d-block w-100 h-60" alt="..."/>
+      <img src={'https://github.com/bilel-daikhi/my-ressources/blob/main/images/projects/gymease/loading.PNG?raw=true'}   className="d-block w-100 h-60" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Login Screen</h5>
-        <p>SBSA Rent cars desktop application login screen.</p>
+        <p>Rent cars desktop application login screen.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={carousel2}   className="d-block w-100 h-60" alt="..."/>
+      <img src={'https://github.com/bilel-daikhi/my-ressources/blob/main/images/projects/pharmaease/loading.PNG?raw=true'}   className="d-block w-100 h-60" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Loading Screen</h5>
-        <p>SBSA Rent cars desktop application home screen..</p>
+        <p>Rent cars desktop application home screen..</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={carousel3}   className="d-block w-100 h-60" alt="..."/>
+      <img src={'https://github.com/bilel-daikhi/my-ressources/blob/main/images/projects/primeerp/loading.PNG?raw=true'}   className="d-block w-100 h-60" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Home Screen</h5>
-        <p>SBSA Rent cars desktop application home screen.</p>
+        <p>Rent cars desktop application home screen.</p>
       </div>
     </div>
   </div>

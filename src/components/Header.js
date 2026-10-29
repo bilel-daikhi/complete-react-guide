@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/icon.png";
 import { useContext, useState } from "react";
 import AuthContext from "../store/auth-context";
 import classes from "./Header.module.css";
@@ -28,7 +27,7 @@ const Header = () => {
             }}
           >
             {" "}
-            SBSA{" "}
+            {" "}
           </span>{" "}
           React recap
         </h1>
@@ -37,7 +36,7 @@ const Header = () => {
 
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <NavLink className="navbar-brand" to="/">
-          <img src={logo} alt="SBSA Solutions"></img>
+          <h2 className="brand-name">Bilel Daikhi</h2>
         </NavLink>
         <button
           className="navbar-toggler"

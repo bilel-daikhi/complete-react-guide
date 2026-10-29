@@ -11,7 +11,7 @@ const NewForm= (props)=>{
 // make this new Form about project details
 
 /*
- name:'SBSA Rent',
+ name:'Rent',
             createdBy:'Bilel Daikhi',
             technologies:'Daikhi',          
             userEmail:'bilel.daikhi@gmail.com',
